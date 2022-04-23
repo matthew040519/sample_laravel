@@ -120,7 +120,7 @@
       <p class="menu-label">Entry</p>
       <ul class="menu-list">
         <li>
-          <a href="/product" class="has-icon">
+          <a href="/product" class="is-active router-link-active has-icon">
             <span class="icon"><i class="mdi mdi-view-list"></i></span>
             <span class="menu-item-label">Product</span>
           </a>

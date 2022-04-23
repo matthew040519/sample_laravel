@@ -20,7 +20,7 @@
 <div class="card has-table has-mobile-sort-spaced">
       <header class="card-header">
         <p class="card-header-title">
-          <span class="icon"><i class="mdi mdi-account-multiple"></i></span>
+          <span class="icon"><i class="mdi mdi-bottle-soda"></i></span>
           Product List
         </p>
         <a style="margin-top: 5px;" href="/product/create" class="button is-info"><i class="fa fa-plus"></i> Add Product</a>
@@ -31,7 +31,7 @@
             <table class="table is-fullwidth is-striped is-hoverable is-sortable is-fullwidth">
               <thead>
               <tr>
-                <th>Image</th>
+                <th style="text-align: center;">Image</th>
                 <th>Product</th>
                 <th>Price</th>
                 <th></th>

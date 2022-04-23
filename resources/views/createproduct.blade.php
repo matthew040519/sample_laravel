@@ -1,7 +1,7 @@
 @extends('welcome')
 
 @section('content')
-<div class="container">
+<div class="container" style="margin: 30px;">
   <nav class="breadcrumb is-right" aria-label="breadcrumbs" style="margin-top: 3%;">
   <ul>
     <li><a href="/mainpage">Home</a></li>
