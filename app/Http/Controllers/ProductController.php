@@ -83,4 +83,40 @@ class ProductController extends Controller
 
 
    }
+
+   public function updateProduct(Request $request)
+   {
+          $validated = $request->validate([
+            // 'image' => 'required',
+            'product_name' => 'required',
+            'price' => 'required',
+        ]);
+
+          $productData = ProductModel::find($request->product_id);
+
+          $productData->product_name = $request->product_name;
+          $productData->product_price = $request->price;
+
+
+          if ($request->file('image')) {
+              
+              $file = $request->file('image');
+              $extenstion = $file->getClientOriginalName();
+              $filename = time().''.$extenstion;
+              $file->move('image/', $filename);
+              $productData->product_image = $filename;
+              $productData->save(); 
+
+              
+          }
+          else
+          {
+              $productData->Save();
+              return redirect()->back()->with('status', 'Successfully Save!');
+          }
+
+
+
+
+   }
 }

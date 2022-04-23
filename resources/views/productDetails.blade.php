@@ -34,7 +34,7 @@
     <!-- <a href="/product/create" class="button is-info"><i class="fa fa-plus"></i> Add Product</a> -->
   </header>
     <div class="card-content">
-      <form method="POST" action="{{ route('AddProduct') }}" enctype="multipart/form-data">  
+      <form method="POST" action="{{ route('updateProduct') }}" enctype="multipart/form-data">  
         {{ csrf_field() }}
           <div class="columns">
             <div class="column">
@@ -51,6 +51,7 @@
             </p>
           </div>
             </div>
+            <input type="hidden" value="{{ $productData->product_id }}" name="product_id">
             <div class="column">
              <div class="field">
               <label class="label">Product Name</label>

@@ -29,3 +29,4 @@ Route::get('/product', [ProductController::class, 'index']);
 Route::get('/product/create', [ProductController::class, 'showAddProduct']);
 Route::get('/product/id/{id}', [ProductController::class, 'showProduct']);
 Route::post('/product/create', [ProductController::class, 'AddProduct'])->name('AddProduct');
+Route::post('/product', [ProductController::class, 'updateProduct'])->name('updateProduct');
