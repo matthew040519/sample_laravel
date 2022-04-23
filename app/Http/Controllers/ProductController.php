@@ -35,6 +35,19 @@ class ProductController extends Controller
       }
    }
 
+   product function showProduct($id)
+   {
+        if (session()->has('id'))
+        {
+          $ProductModel = ProductModel::find($id);
+          return view('productDetails, [productData => $productModel]');
+        }
+        else
+        {
+           return redirect('/');
+        }
+   }
+
    public function AddProduct(Request $request)
    {
    		    $validated = $request->validate([
