@@ -35,7 +35,7 @@ class ProductController extends Controller
       }
    }
 
-   product function showProduct($id)
+   public function showProduct($id)
    {
         if (session()->has('id'))
         {
