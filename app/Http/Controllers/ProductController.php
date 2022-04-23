@@ -40,7 +40,7 @@ class ProductController extends Controller
         if (session()->has('id'))
         {
           $ProductModel = ProductModel::find($id);
-          return view('productDetails, [productData => $productModel]');
+          return view('productDetails', ['productData' => $ProductModel]);
         }
         else
         {
