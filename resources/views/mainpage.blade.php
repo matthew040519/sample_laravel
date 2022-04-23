@@ -1,7 +1,7 @@
 @extends('welcome')
 
 @section('content')
-	 <section class="section is-title-bar">
+	 <!-- <section class="section is-title-bar">
     <div class="level">
       <div class="level-left">
         <div class="level-item">
@@ -22,7 +22,12 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+<nav class="breadcrumb has-arrow-separator" style="float: right;margin-top: 2%;" aria-label="breadcrumbs">
+  <ul>
+    <!-- <li><a href="/mainpage">Home</a></li> -->
+  </ul>
+</nav>
   <section class="hero is-hero-bar">
     <div class="hero-body">
       <div class="level">

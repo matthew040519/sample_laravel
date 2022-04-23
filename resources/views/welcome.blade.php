@@ -111,7 +111,7 @@
       <p class="menu-label">General</p>
       <ul class="menu-list">
         <li>
-          <a href="/mainpage" class="is-active router-link-active has-icon">
+          <a href="/mainpage" class="has-icon">
             <span class="icon"><i class="mdi mdi-desktop-mac"></i></span>
             <span class="menu-item-label">Dashboard</span>
           </a>
@@ -120,7 +120,7 @@
       <p class="menu-label">Entry</p>
       <ul class="menu-list">
         <li>
-          <a href="/product" class="is-active router-link-active has-icon">
+          <a href="/product" class="has-icon">
             <span class="icon"><i class="mdi mdi-view-list"></i></span>
             <span class="menu-item-label">Product</span>
           </a>
@@ -176,7 +176,8 @@
       </ul> -->
     </div>
   </aside>
-                   @yield('content')
+      @yield('content')
+                   
         </div>
    
         <script type="text/javascript" src="{{ asset('js/main.min.js') }}"></script>
