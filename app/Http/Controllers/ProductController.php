@@ -106,7 +106,7 @@ class ProductController extends Controller
               $file->move('image/', $filename);
               $productData->product_image = $filename;
               $productData->save(); 
-
+              return redirect()->back()->with('status', 'Successfully Save!');
               
           }
           else

@@ -12,8 +12,8 @@
         <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
     </head>
     <body>
-       <section class="hero is-success is-fullheight">
-        <div class="hero-body">
+       <section class="hero is-success is-fullheight" >
+        <div class="hero-body" style="padding-bottom: 0px; padding-top: 13px;">
             <div class="container has-text-centered">
                 <div class="column is-4 is-offset-4">
                     <!-- <h3 class="title has-text-black">Login</h3>
@@ -42,20 +42,21 @@
                                     <input class="input is-large" name="password" type="password" placeholder="Your Password">
                                 </div>
                             </div>
-                            <div class="field">
+                           <!--  <div class="field">
                                 <label class="checkbox">
                   <input type="checkbox">
                   Remember me
                 </label>
-                            </div>
+                            </div> -->
                             <button class="button is-block is-info is-large is-fullwidth">Login <i class="fa fa-sign-in" aria-hidden="true"></i></button>
                         </form>
+                        <button class="button is-block is-secondary is-large is-fullwidth">Sign Up <i class="fa fa-sign-in" aria-hidden="true"></i></button>
                     </div>
-                    <p class="has-text-grey">
-                        <!-- <a href="../">Sign Up</a> &nbsp;·&nbsp;
+                   <!--  <p class="has-text-grey">
+                        <a href="../">Sign Up</a> &nbsp;·&nbsp;
                         <a href="../">Forgot Password</a> &nbsp;·&nbsp;
-                        <a href="../">Need Help?</a> -->
-                    </p>
+                        <a href="../">Need Help?</a>
+                    </p> -->
                 </div>
             </div>
         </div>
