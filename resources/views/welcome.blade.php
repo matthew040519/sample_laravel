@@ -104,7 +104,7 @@
                   <aside class="aside is-placed-left is-expanded">
     <div class="aside-tools">
       <div class="aside-tools-label">
-        <span><b>Sample</b> Admin Template</span>
+        <span><b>Sample</b></span>
       </div>
     </div>
     <div class="menu is-menu-main">
@@ -123,6 +123,10 @@
           <a href="/product" class="has-icon">
             <span class="icon"><i class="mdi mdi-view-list"></i></span>
             <span class="menu-item-label">Product</span>
+          </a>
+          <a href="/supplier" class="has-icon">
+            <span class="icon"><i class="mdi mdi-view-list"></i></span>
+            <span class="menu-item-label">Supplier</span>
           </a>
         </li>
        <!--  <li>
